@@ -1,0 +1,11 @@
+{
+  "name": "cyrus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ItsCryptic",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "path": "^0.12.7"
+  }
+}
