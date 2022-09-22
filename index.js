@@ -16,7 +16,7 @@ for (const file of eventFiles) {
         client.on(event.name, (...args) => event.execute(...args));
     }
 }
-client.on("messageCreate", (message) => {
+/*client.on("messageCreate", (message) => {
         if (message.author.bot) return false;
     
         if (message.content.includes("@here") || message.content.includes("@everyone") || message.type == "REPLY") return false;
@@ -24,6 +24,6 @@ client.on("messageCreate", (message) => {
         if (message.mentions.has(client.user.id)) {
             message.channel.send("Howdy!");
         }
-    });
+    });*/
 
 client.login(token);
